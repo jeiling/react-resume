@@ -1,0 +1,98 @@
+.listSkill li{
+    display:flex;
+    flex-direction:column;
+    width: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+  }
+  .listProgram .bar{
+    width: 150px;
+    height: 10px;
+    border: solid 2px #7c7c7c;
+    border-radius: 5px;
+  }
+  .listProgram li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .listSkill{
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.8;
+    font-weight: 400;
+  }
+  .valueP40{
+    height: 100%;
+    width: 60%;
+    background-color: #0bcaeb;
+    animation-name: forty;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes forty{
+    from{
+      width: 0%;
+    }
+    to{
+        width: 40%;
+    }
+  }
+  .valueP50{
+    height: 100%;
+    width: 60%;
+    background-color: #0bcaeb;
+    animation-name: fifty;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes fifty{
+  from{
+    width: 0%;
+    }
+  to{
+      width: 50%;
+    }
+  }
+  .valueP60{
+    height: 100%;
+    width: 60%;
+    background-color: #0bcaeb;
+    animation-name: sixty;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes sixty{
+  from{
+    width: 0%;
+    }
+  to{
+      width: 60%;
+    }
+  }
+ 
+  .valueP80{
+    height: 100%;
+    width: 60%;
+    background-color: #0bcaeb;
+    animation-name: eighty;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes eighty{
+    from{
+      width: 0%;
+      }
+    to{
+      width: 80%;
+      }
+  }
+  
+
+  

@@ -1,0 +1,28 @@
+
+  .scratch{
+    letter-spacing: 2.7px;
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+  }
+  .potfoliohref{
+    border-style: none;
+    background-color: #ffd3d3;
+    color: #7b504a;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .potfoliohref:focus{
+    outline: none;
+  }
+  .potfoliohref:hover{
+    filter: brightness(95%);
+  }
+  

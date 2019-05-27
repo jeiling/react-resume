@@ -1,0 +1,25 @@
+h4{
+    margin: 0;
+    margin-top: 40px;
+    opacity:0.8;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .listExperience>li{
+    display: flex;
+    margin-bottom: 10px; 
+  }
+  .listExperience>li:nth-child(1) ul{
+    border-color:#fc5d5d;
+  }
+  .listExperience>li:nth-child(2) ul{
+    border-color:#fc7676;
+  }
+  .listExperience>li:nth-child(3) ul{
+    border-color:#f98686;
+  }
+  .listExperience li ul{
+    padding-left: 10px;
+    margin-left: 10px; 
+    border-left: solid 3px rgb(255, 255, 255); 
+  } 
